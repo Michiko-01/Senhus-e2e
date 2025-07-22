@@ -14,7 +14,6 @@ export class LandingPageModel {
   }
 
   async acceptCookiesOnFooter() {
-    await this.page.pause();
     await this.acceptCookies.click();
   }
 
